@@ -4,6 +4,7 @@ pipeline {
     stages {
         stage('Development') {
             steps {
+                bat 'git clone https://github.com/Anushkaj-03/jenkins-workshop.git'
                 echo 'Development'
             }
         }
